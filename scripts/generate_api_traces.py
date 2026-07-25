@@ -11,7 +11,7 @@ import numpy as np
 from datetime import datetime
 
 # Configurações
-API_URL = "http://localhost:8000/get-delivery-region"
+API_URL = "http://localhost:8002/get-delivery-region"
 NUM_CALLS = 100
 INSIDE_RATIO = 0.80  # 80% dentro da região
 OUTSIDE_RATIO = 0.20  # 20% fora da região
